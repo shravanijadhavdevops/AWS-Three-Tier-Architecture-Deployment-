@@ -4,6 +4,7 @@ This project demonstrates the deployment of a secure and scalable Three-Tier Arc
 
 The application is a Java-based Student Registration System deployed on Apache Tomcat. User requests are routed through an Nginx Reverse Proxy hosted in a public subnet, while the application server and database resources remain isolated in private subnets for enhanced security.
 # Architecture Diagram
+![alt text](imgs/architecture_diagram.png)
 # Architecture Flow
                User
                 │
